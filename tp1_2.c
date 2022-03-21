@@ -38,10 +38,10 @@ int main(){
     return 0;
 }
 int cuadrado (int numero){
-    return(numero^2);
+    return(numero*numero);
 }
 void cuadradoDos(int *puntero){
-    *puntero= *puntero^2;
+    *puntero= (*puntero)*(*puntero);
 }
 void invertir(int *a,int *b){
     int ola=*b;
