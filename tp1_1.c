@@ -4,9 +4,9 @@ int main(){
     int x=10;
     int *puntero;
     puntero=&x;
-    printf("Contenido del puntero: %d", *puntero);
-    printf("Direccion de la vriable : %d", &x);
-    printf("Direccion de el puntero : %d", &puntero);
+    printf("\nContenido del puntero: %d", *puntero);
+    printf("\nDireccion de la vriable : %d", &x);
+    printf("\nDireccion de el puntero : %d", &puntero);
     int memoria= sizeof(x);
-    printf("Tamaño de memoria utilizado por esa variable: %d", memoria);
+    printf("\nTamaño de memoria utilizado por esa variable: %d", memoria);
 }
